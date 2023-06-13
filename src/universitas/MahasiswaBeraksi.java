@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package universitas;
 
-/**
- *
- * @author ASUS
- */
 public class MahasiswaBeraksi {
-    
+    public static void main(String[] args) {
+        Mahasiswa aan = new Mahasiswa();
+        aan.getDetail(); 
+        
+        System.out.println("Nama : " + aan.getNama());
+        System.out.println("NPM : " + aan.NPM);
+        System.out.println("Prodi : " + aan.Prodi);
+    }
 }
